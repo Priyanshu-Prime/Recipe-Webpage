@@ -1,0 +1,88 @@
+*
+{
+    font-family: "Outfit", sans-serif;
+}
+body
+{
+    background-color:hsl(330, 100%, 98%);
+    display: flex;
+    justify-content: center;
+}
+.card
+{
+    background-color:white;
+    width: 600px;
+    margin: 2rem 0rem;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 0.75rem;
+}
+.card img
+{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+p
+{
+    color: hsl(30, 10%, 34%);
+}
+.time
+{
+    padding: 0.5px 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+.time ul li
+{
+    line-height: 2rem;
+    color: hsl(30, 10%, 34%);
+}
+h3
+{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 5px;
+}
+.info
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-gap: 50px; */
+    margin: 0px;
+}
+h1, h2
+{
+    font-family: "Young Serif", sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.ingredients ul li
+{
+    line-height: 2.25rem;
+    color: hsl(30, 10%, 34%);
+}
+.instructions ol li
+{
+    line-height: 1.5rem;
+    margin: 10px 0px;
+    color: hsl(30, 10%, 34%);
+    /* letter-spacing: 0.5px; */
+}
+.info .property
+{
+    grid-column: 1/span 6;
+    margin-left: 10px;
+    color: hsl(30, 10%, 34%);
+}
+.info .value
+{
+    grid-column: 7/span 6;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.line
+{
+    width: 95%;
+    border-bottom: 1px solid gray;
+    opacity: 0.2;
+    align-self: center;
+}
+
